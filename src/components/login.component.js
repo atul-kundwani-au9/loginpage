@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class Login extends Component {
     render() {
         return (
-    <form>
+    <form>    
     <h3>Log In</h3>
     <div className="form-group">
     <label>Email address</label>
@@ -20,9 +20,11 @@ export default class Login extends Component {
    <label className="custom-control-label" htmlFor="customCheck1">Remember me</label>
    </div>
    </div>
-   <button type="submit" className="btn btn-primary btn-block">Login</button>    
+   <div className="button">
+   <button type="submit" className="btn">Login</button>   
+    </div>
+  </form>  
   
-  </form>
     );
     }
 }
